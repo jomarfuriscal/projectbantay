@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+footer {
+
+}
+
+.navi{
+  background-color: #acd;
+  border-radius: 5px;
+  display:block;
+}
+
+@media screen and (max-width:975px){
+	body{
+		padding-top:0px;
+	}
+}
+.navi > ul > li {
+	display:block;
+}
+.navi > ul{
+	display:inline;
+}
+/*
+#login{
+  border:5px dashed black;
+  background-color:#acd;
+}
+input.login{
+  border-radius: 25px;
+  text-align: center;
+  height: 2.5em;
+  margin-bottom: 25px;
+}
+input.btn{
+  margin-bottom:25px;
+}
+*/
